@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  /* overflow: auto; */
+}
+
+main {
+  height: 80vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  scroll-snap-align: start;
+}
+
+.card {
+  margin: auto;
+  background: white;
+  width: 300px;
+  height: 400px;
+}
+
+.card>h2 {
+}

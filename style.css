@@ -1,0 +1,32 @@
+body {
+  padding: 10vh;
+}
+
+main {
+  height: 80vh;
+}
+
+section:nth-child(1) {
+  background-image: url(1.jpg);
+}
+
+section:nth-child(2) {
+  background-image: url(2.avif);
+}
+
+section:nth-child(3) {
+  background-image: url(3.avif);
+}
+
+section:nth-child(4) {
+  background-image: url(4.jpg);
+}
+
+.card {
+  padding: 30px;
+}
+
+.card>h2 {
+  font-size: 2em;
+  margin: 20px;
+}
